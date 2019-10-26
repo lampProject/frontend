@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lampProject/frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lampProject/frontend/issues"
+  },
+  "homepage": "https://github.com/lampProject/frontend#readme",
+  "dependencies": {
+    "ibm-watson": "^5.1.0",
+    "node-yeelight-wifi": "^0.1.4",
+    "yeelight-platform": "^1.0.9"
+  }
+}
