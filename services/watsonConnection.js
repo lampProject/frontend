@@ -34,6 +34,8 @@ module.exports= {
                     }
                   })
                   .then(res => {
+                    console.log("chegou do watson:", res.result.output.generic[0])
+                    console.log(res.result)
                     resolve(res.result.output.generic[0].text)
                   })
                   .catch(err => {

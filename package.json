@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/lampProject/frontend#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "ibm-watson": "^5.1.0",
     "node-yeelight-wifi": "^0.1.4",
     "yeelight-platform": "^1.0.9"
